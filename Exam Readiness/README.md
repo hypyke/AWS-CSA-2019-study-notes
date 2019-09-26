@@ -24,7 +24,7 @@
 
 Security:
 
-* [AWS Shield](https://aws.amazon.com/shield/): WS Shield is a managed Distributed Denial of Service (DDoS) protection service
+* [AWS Shield](https://aws.amazon.com/shield/): AWS Shield is a managed Distributed Denial of Service (DDoS) protection service
 * [AWS WAF](https://aws.amazon.com/waf/): AWS WAF is a web application firewall that helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources
 
 ### Text Axioms 2
@@ -38,8 +38,8 @@ Security:
 
 ### Text Axioms 3
 
-* Look down the root user
-* Security groups only allow. Network ACLs allow explicitly deny.
+* Lock down the root user
+* Security groups only allow. Network ACLs allow and explicitly deny.
 * Prefer IAM roles over access keys
 
 ## Module 4 - Design Cost-Optimized Architectures
